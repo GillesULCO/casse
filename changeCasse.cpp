@@ -4,6 +4,7 @@
 #include <iostream>
 int main()
 {
+  //modification
     std::string texte = "Toto, Tata";
     // change les minuscules par des majuscules et réciproquement
     for (char & c : texte)
