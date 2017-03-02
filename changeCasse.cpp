@@ -5,7 +5,8 @@
 int main()
 {
   //modification
-    std::string texte = "Toto, Tata";
+    std::string texte;
+    std::cin >> texte;
     // change les minuscules par des majuscules et réciproquement
     for (char & c : texte)
     {
